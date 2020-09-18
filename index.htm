@@ -17,7 +17,9 @@
 
 	<div class="wrapper">
 		<section class="section section1">
-			<span>NZRentals</span>
+			<h2>
+				NZRentals
+			</h2>
 		</section>
 		<section class="section section2">
 			<div class="main">
@@ -25,67 +27,74 @@
 					<div class="content">
 						<h1>Lets get you moving!</h1>
 						<div class="slide-text">How many days will you require transportation?</div>
-						<input type="text" placeholder="Click here" name="traveltime" class="traveltime"></input>
+						<input type="text" placeholder="Click here" name="traveltime" class="traveltime">
 						<p><span class="days"></span></p>
 						<div class="slide-text-custom">How many people are travelling with you?</div>
 						<input type="number" placeholder="Click here" name="partymembers" class="partymembers"
-							id="partycount"></input>
+							id="partycount">
+							<div class="slide-text-custom1">How many kilometers are you travelling?</div>
+						<input type="number" placeholder="Click here" name="distanceks" class="distanceks"
+							id="distancetotal">
 					</div>
 				</div>
 				<div class="slide slide2">
 					<div class="section-container">
 						<h1>Here are your choices</h1>
-						<div class="item item1" data-name="motorcycle" data-price="109" data-fuel="0.037">
-							<img src="" alt="" width="50%">
+						<div class="item item1" data-name="Motorcycle" data-price="109" data-fuel="3.7">
+						
 							<div class="itemdesc">
 								<h2>Motorcycle</h2>
-								<h3>\$109/day</h3>
-								<p>3.7 litres / 100kms</p>
+								<h3>$109 per day</h3>
+								<p>3.7 litres per 100 kilometers</p>
 							</div>
 						</div>
-						<div class="item item2" data-name="smallcar" data-price="129" data-fuel="0.085">
-							<img src="" alt="" width="50%">
+						<div class="item item2" data-name="Small Car" data-price="129" data-fuel="8.5">
+						
 							<div class="itemdesc">
 								<h2>Small Car</h2>
-								<h3>\$129/day</h3>
-								<p>8.5 litres / 100kms</p>
+								<h3>$129 per day</h3>
+								<p>8.5 litres per 100 kilometers</p>
 							</div>
 						</div>
-						<div class="item item3" data-name="largecar" data-price="144" data-fuel="0.097">
-							<img src="" alt="" width="50%">
+						<div class="item item3" data-name="Large Car" data-price="144" data-fuel="9.7">
+						
 							<div class="itemdesc">
 								<h2>Large Car</h2>
-								<h3>\$144/day</h3>
-								<p>9.7 litres / 100kms</p>
+								<h3>$144 per day</h3>
+								<p>9.7 litres per 100 kilometers</p>
 							</div>
 						</div>
-						<div class="item item4" data-name="motorhome" data-price="200" data-fuel="0.17">
-							<img src="" alt="" width="50%">
+						<div class="item item4" data-name="Motorhome" data-price="200" data-fuel="1.7">
+						
 							<div class="itemdesc">
 								<h2>Motorhome</h2>
-								<h3>\$200/day</h3>
-								<p>17 litres / 100kms</p>
+								<h3>$200 per day</h3>
+								<p>17 litres per 100 kilometers</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="slide slide3">
-					<div class="fuelcost">
+					<div class="container">
 						<div class="title">
 							<h1>Your vehicle is ready to book.</h1>
 						</div>
 						<div class="carname">
 							<h2>Your car:</h2>
 						</div>
-						<h2 id="name"></h2><br>
-						<div class="carname">
-							<h2>Price per day (in $NZD):</h2>
+						<h2 id="name">.</h2><br>
+						<div class="carprice">
+							<h2>Total cost for days renting vehicle.:</h2>
 						</div>
-						<h2 id="price"></h2>
+						<h2 id="price">.</h2>
+						<div class="fuelconsheader">
+							<h2>Fuel consumption for distance in liters.:</h2>
+						</div>
+						<h2 id="fuelconsumption">.</h2>
 					</div>
 				</div>
 				<div class="slide slide4">
-					<h2>Thank you!</h2>
+					<h2>Thank you!</h2><br>
 				</div>
 			</div>
 			<div class="footer">
@@ -93,7 +102,7 @@
 			</div>
 		</section>
 		<section class="section section3">
-			<span>NZRentals</span>
+			<h1>NZRentals</h1>
 		</section>
 	</div>
 
