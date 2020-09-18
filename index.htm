@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+		integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/lightpick.css">
+	<link rel="stylesheet" href="assets/normalize.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<section class="section section1">
+			<span>NZRentals</span>
+		</section>
+		<section class="section section2">
+			<div class="main">
+				<div class="slide slide1">
+					<div class="content">
+						<h1>Lets get you moving!</h1>
+						<div class="slide-text">How many days will you require transportation?</div>
+						<input type="text" placeholder="Click here" name="traveltime" class="traveltime"></input>
+						<p><span class="days"></span></p>
+						<div class="slide-text-custom">How many people are travelling with you?</div>
+						<input type="number" placeholder="Click here" name="partymembers" class="partymembers"
+							id="partycount"></input>
+					</div>
+				</div>
+				<div class="slide slide2">
+					<div class="section-container">
+						<h1>Here are your choices</h1>
+						<div class="item item1" data-name="motorcycle" data-price="109" data-fuel="0.037">
+							<img src="" alt="" width="50%">
+							<div class="itemdesc">
+								<h2>Motorcycle</h2>
+								<h3>\$109/day</h3>
+								<p>3.7 litres / 100kms</p>
+							</div>
+						</div>
+						<div class="item item2" data-name="smallcar" data-price="129" data-fuel="0.085">
+							<img src="" alt="" width="50%">
+							<div class="itemdesc">
+								<h2>Small Car</h2>
+								<h3>\$129/day</h3>
+								<p>8.5 litres / 100kms</p>
+							</div>
+						</div>
+						<div class="item item3" data-name="largecar" data-price="144" data-fuel="0.097">
+							<img src="" alt="" width="50%">
+							<div class="itemdesc">
+								<h2>Large Car</h2>
+								<h3>\$144/day</h3>
+								<p>9.7 litres / 100kms</p>
+							</div>
+						</div>
+						<div class="item item4" data-name="motorhome" data-price="200" data-fuel="0.17">
+							<img src="" alt="" width="50%">
+							<div class="itemdesc">
+								<h2>Motorhome</h2>
+								<h3>\$200/day</h3>
+								<p>17 litres / 100kms</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide slide3">
+					<div class="fuelcost">
+						<div class="title">
+							<h1>Your vehicle is ready to book.</h1>
+						</div>
+						<div class="carname">
+							<h2>Your car:</h2>
+						</div>
+						<h2 id="name"></h2><br>
+						<div class="carname">
+							<h2>Price per day (in $NZD):</h2>
+						</div>
+						<h2 id="price"></h2>
+					</div>
+				</div>
+				<div class="slide slide4">
+					<h2>Thank you!</h2>
+				</div>
+			</div>
+			<div class="footer">
+				<span class="next">Next</span>
+			</div>
+		</section>
+		<section class="section section3">
+			<span>NZRentals</span>
+		</section>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="assets/lightpick.js"></script>
+	<script src="assets/anime.min.js"></script>
+	<script src="assets/anime_extensions.js"></script>
+	<script src="assets/script.js"></script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDknEtmtQzCjjFGOAJiHVFKcBegAsUBUKc&callback=initMap">
+		</script>
+
+</body>
+
+</html>
